@@ -32,6 +32,7 @@ def turn(board)
 if valid_move?(board, index)
   move (board, index, token = "X")
 end
+display_board(board)
 end
 
 
