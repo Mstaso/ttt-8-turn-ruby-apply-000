@@ -3,6 +3,7 @@
 require_relative '../lib/turn'
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 index = input_to_index(user_input)
 
 puts "Welcome to Tic Tac Toe!"
