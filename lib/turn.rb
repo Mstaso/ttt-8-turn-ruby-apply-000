@@ -30,7 +30,8 @@ def turn(board)
 user_input = gets.strip
 if valid_move? (board, user_input)
   move (board, user_input, "X")
-else  
+else
+  turn(board)
 end
 
 
