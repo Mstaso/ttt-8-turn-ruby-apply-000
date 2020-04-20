@@ -33,7 +33,7 @@ if valid_move?(board, index)
 else
   turn(board)
 end
-display_board(board)
+display_board
 end
 
 
